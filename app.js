@@ -11,7 +11,7 @@ $('#login').click(function() {
      // hide the login on the screen
     $('#logindiv').hide();
     
-     // fire off an HTML greeting, passing the '#greeting' as the selector and the chosen language, and log the welcome as well
+     // fire off an HTML greeting, passing the '#greeting' as the selector and the chosen beatle
     loginBeatlr.setBeatle($('#beat').val()).HTMLGreeting('#greeting', true).log();
     
 });
