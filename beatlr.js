@@ -1,5 +1,5 @@
  
-(function(global, $) {
+;(function(global, $) {
     
     var Beatlr = function(firstname, lastname, greeting) {
         //return function constructor
